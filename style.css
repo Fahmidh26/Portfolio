@@ -1,0 +1,177 @@
+.leftNav{
+    height: 650px;
+    background-color: rgb(41, 41, 41);
+}
+.rightNav{
+  width: 300px;
+  height: 650px;
+  object-fit: cover;
+}
+.rightNav img{
+  width: 100%;
+  height: 650px;
+  position: relative;
+  margin: 0px auto;
+}
+.nav a{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+}
+.name{
+    color: white;
+    padding-top: 140px;
+    padding-left: 65px;
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+}
+.details{
+    color: white;
+    padding-left: 65px;
+    padding-right: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.work{
+    background-image: url(images/works_backgroud.jpg);
+    padding: 30px;
+    width: auto;
+    margin: 0px auto;
+    
+}
+.work h2{
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.cards{
+    display: flex;
+    margin-top:45px;
+    margin-left: 30px;
+}
+.card{
+    margin-left: 10px;
+    margin-right: 30px;
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.card h4{
+    font-weight: 500;
+}
+.cards-2{
+    display: flex;
+    margin-top:20px;
+    margin-left:155px;
+}
+.about{
+    width: auto;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin: 0px auto;
+}
+.aboutLeft{
+  position: relative;
+  margin: 0px auto;
+}
+.flip-box {
+    background-color: transparent;
+    width: auto;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    text-align: center;
+    position: relative;
+    margin: 0px auto;
+
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    padding: 80px;
+    background-image: url(images/works_backgroud.jpg);
+    background-size: cover;
+  }
+  .flip-box-front h2{
+  font-weight: 700;
+  font-size: xx-large;
+}
+  .flip-box-back {
+    background-image: url(images/golden-frame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    transform: rotateX(180deg);
+    text-align: left;
+  }
+  .flip-box-back p{
+    padding: 40px 30px;
+  }
+  .cardProfile img{
+      width: auto;
+      height: 198px;
+  }
+  .aboutRight{
+    float: right;
+  }
+  .icons{
+    width: auto;
+    height: 160px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(images/works_backgroud.jpg);
+    text-align: center;
+    position: relative;
+    margin: 0px auto;
+  }
+  i{
+    font-size: 65px;
+    padding: 50px 40px;
+    color: white;
+  }
+  form{
+    padding: 20px 40px;
+  }
+  .formLeft{
+    background-color: rgb(41, 41, 41);
+  }
+  .formLeft i{
+    font-size: 30px;
+    height: 100px;
+  }
+  .formRight{
+    text-align: left;
+  }
+  .textIcon p{
+    padding-top: 23px;
+    color: white;
+  }
+.goTop i{
+  color: gray;
+  font-size: 20px;
+}
+.goTop{
+  margin: -50px 0px;
+}
+
